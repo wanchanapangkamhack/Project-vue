@@ -17,8 +17,19 @@ const routes = [
     name: 'contact',
    
     component: () => import( '../views/ContactView.vue')
-  }
-
+  },
+  {
+    path: '/grade',
+    name: 'grade',
+   
+    component: () => import( '../views/Grade.vue')
+  },
+  {
+    path: '/golds',
+    name: 'golds',
+   
+    component: () => import( '../views/Api_golds.vue')
+  },
   
 ]
 const router = createRouter({
