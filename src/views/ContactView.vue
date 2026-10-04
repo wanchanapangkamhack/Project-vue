@@ -1,11 +1,8 @@
-<template >
-    <div>
-
-        <h3>ติดต่อเรา</h3>
+<template>
+<div class="container">
+    <h3>ติดต่อเรา</h3>
         <h2>Wanchana Pangkamhack </h2>
-
-
-    </div>
+  </div>
 </template>
 
 <style scoped>
@@ -15,3 +12,4 @@
 </style>
 
 
+ 
