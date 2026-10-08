@@ -15,7 +15,6 @@ const routes = [
   {
     path: '/contact',
     name: 'contact',
-   
     component: () => import( '../views/ContactView.vue')
   },
   {
@@ -30,7 +29,30 @@ const routes = [
    
     component: () => import( '../views/Api_golds.vue')
   },
-  
+  {
+    path: '/product_api',
+    name: 'product_api',
+   
+    component: () => import( '../views/Product_api.vue')
+  },
+   {
+    path: '/product_api',
+    name: 'product_api',
+   
+    component: () => import( '../views/Product_api.vue')
+  },
+   {
+    path: '/product_table',
+    name: 'product_table',
+   
+    component: () => import( '../views/Product_table.vue')
+  },
+   {
+    path: '/user',
+    name: 'user',
+   
+    component: () => import( '../views/Users1.vue')
+  },
 ]
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
